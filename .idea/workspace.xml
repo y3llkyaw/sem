@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="710b9b91-c60d-4d42-878e-2704d14115ed" name="Changes" comment="Mongo Client Added">
+    <list default="true" id="710b9b91-c60d-4d42-878e-2704d14115ed" name="Changes" comment="self contain jar added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "Application.App.executor": "Run",
     "Application.Main.executor": "Run",
     "Docker.Dockerfile.executor": "Run",
+    "Docker.mogodb with network.executor": "Run",
     "Docker.mongo with ports.executor": "Run",
     "Maven.seMethods [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -59,9 +61,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="openjdk" />
+          <option name="commandLineOptions" value="--network se-methods" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
       <deployment type="docker-image" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mogodb with network" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="mongo:latest" />
+          <option name="containerName" value="mongo-dbserver" />
+          <option name="commandLineOptions" value="--network se-methods" />
+        </settings>
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="mongo with ports" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
@@ -76,6 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.mogodb with network" />
         <item itemvalue="Docker.mongo with ports" />
       </list>
     </recent_temporary>
@@ -95,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706110566213</updated>
-      <workItem from="1706110567296" duration="2441000" />
+      <workItem from="1706110567296" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="added hello world">
       <option name="closed" value="true" />
@@ -177,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706112900510</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="self contain jar added">
+      <option name="closed" value="true" />
+      <created>1706113050885</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706113050885</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +221,7 @@
     <MESSAGE value="edit readme" />
     <MESSAGE value="edit pom.xml" />
     <MESSAGE value="Mongo Client Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mongo Client Added" />
+    <MESSAGE value="self contain jar added" />
+    <option name="LAST_COMMIT_MESSAGE" value="self contain jar added" />
   </component>
 </project>
