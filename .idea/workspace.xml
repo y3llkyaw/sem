@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="710b9b91-c60d-4d42-878e-2704d14115ed" name="Changes" comment="self contain jar added" />
+    <list default="true" id="710b9b91-c60d-4d42-878e-2704d14115ed" name="Changes" comment="creating release">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706113800170</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="creating release">
+      <option name="closed" value="true" />
+      <created>1706115221697</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706115221697</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +238,7 @@
     <MESSAGE value="edit pom.xml" />
     <MESSAGE value="Mongo Client Added" />
     <MESSAGE value="self contain jar added" />
-    <option name="LAST_COMMIT_MESSAGE" value="self contain jar added" />
+    <MESSAGE value="creating release" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating release" />
   </component>
 </project>
