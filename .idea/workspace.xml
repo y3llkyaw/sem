@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="710b9b91-c60d-4d42-878e-2704d14115ed" name="Changes" comment="edit pom.xml">
+    <list default="true" id="710b9b91-c60d-4d42-878e-2704d14115ed" name="Changes" comment="Mongo Client Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
     "Application.Main.executor": "Run",
     "Docker.Dockerfile.executor": "Run",
     "Docker.mongo with ports.executor": "Run",
+    "Maven.seMethods [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -94,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706110566213</updated>
-      <workItem from="1706110567296" duration="2300000" />
+      <workItem from="1706110567296" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="added hello world">
       <option name="closed" value="true" />
@@ -168,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706112750227</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mongo Client Added">
+      <option name="closed" value="true" />
+      <created>1706112900510</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706112900510</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +188,7 @@
     <MESSAGE value="Docker" />
     <MESSAGE value="edit readme" />
     <MESSAGE value="edit pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit pom.xml" />
+    <MESSAGE value="Mongo Client Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mongo Client Added" />
   </component>
 </project>
